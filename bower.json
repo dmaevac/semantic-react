@@ -1,0 +1,20 @@
+{
+  "name": "semantic-react",
+  "main": "index.js",
+  "version": "0.0.1",
+  "authors": [
+    "@dvemac"
+  ],
+  "keywords": [
+    "semantic-ui",
+    "react"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
