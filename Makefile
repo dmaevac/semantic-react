@@ -5,4 +5,8 @@ lint:
 	@jshint ./index.js lib/*.js
 
 compile:
-	@jsx --no-cache-dir ./lib ./build
+	@jshint ./index.js lib/*.js
+	@jsx ./lib ./build
+
+test: compile
+	@zuul --local 3111 --ui tape ./tests/*.js

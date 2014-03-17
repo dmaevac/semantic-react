@@ -8,7 +8,11 @@
     "react": "~0.9.0"
   },
   "devDependencies": {
-    "react-tools": "^0.9.0"
+    "react-tools": "^0.9.0",
+    "jshint": "^2.4.4",
+    "tape": "^2.10.2",
+    "mocha": "^1.18.0",
+    "zuul": "^1.5.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
